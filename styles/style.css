@@ -33,6 +33,35 @@ body {
 	font-weight: 500;
 	font-size: 1.25rem;
 }
+										/*BREADSCRUMBS*/
+.breadcrumb{
+	background-color: white;
+	margin-left: 14%;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1rem;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li a {
+  color: #959595;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #959595;
+}
+.sidsteCrumb{
+	font-weight: 500;
+}
+
 										/*FORSIDE*/
 /*striber*/
 hr.sort{
@@ -116,7 +145,13 @@ p {
 }
 										/*TAKEOFF*/
 
-
+.projektimg{
+	width: 50%;
+}
+.tekst{
+	width: 60%;
+	text-align: left;
+}
 /*Tablet*/
 @media only screen and (max-width: 768px){
 	
