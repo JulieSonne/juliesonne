@@ -18,17 +18,53 @@ body {
 	margin: 3% 0 3% 0;
 }
 /*Navigation*/
-
+/*Placering af navigation*/
 .navbar {
 	margin: auto;
 	max-width: 50%;
 }
+.navspace {
+	margin: 0 5% 0 5%;
+}
+/*styling af navigation*/
 .navstyle a {
 	color: black;
 	letter-spacing: 3px;
+	font-weight: 500;
+	font-size: 1.25rem;
 }
-.navspace {
-	margin: 0 5% 0 5%;
+
+/*Striber*/
+.stribenav img{
+	width: 90%;
+	height: auto;
+	margin: 2% 0 5% 0;
+}
+.stribe img{
+	width: 70%;
+	height: auto;
+	margin: 3% 0 5% 0;
+}
+/*GIF*/
+.minGif img{
+	margin: 5% 0 5% 0;
+	width: 50%;
+	height: auto;
+}
+/*Tekst på forsiden*/
+.forsideTekst{
+	max-width: 50%;
+	padding: 1% 0 0 0;
+	margin: auto;
+	/*text-align: left;*/
+	line-height: 200%;
+}
+.nyeste h3{
+	background: #A4D8FF;
+	width: 70%;
+	margin: auto;
+	padding: 3% 0 3% 0;
+	
 }
 /*Tablet*/
 @media only screen and (max-width: 768px){
@@ -39,7 +75,6 @@ body {
 	/*Logo*/
 	.logo img {
 		width: 20%;
-		border: 1px solid red;
 	}
 	.shownav {
 		display: none;
