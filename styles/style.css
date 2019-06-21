@@ -33,7 +33,7 @@ body {
 	font-weight: 500;
 	font-size: 1.25rem;
 }
-
+										/*FORSIDE*/
 /*striber*/
 hr.sort{
   border-top: 6px dashed black;
@@ -49,10 +49,9 @@ hr.sort{
 }
 /*Tekst på forsiden*/
 .forsideTekst{
-	max-width: 40%;
-	padding: 1% 0 0 0;
-	margin: auto;
-	/*text-align: left;*/
+	max-width: 30%;
+	margin: 0 35% 3% 35%;
+	text-align: left;
 	line-height: 200%;
 }
 /*Nyeste projekter*/
@@ -115,6 +114,7 @@ p {
   width: 40%;
   margin: 0 60% 2% 0;
 }
+										/*TAKEOFF*/
 
 
 /*Tablet*/
