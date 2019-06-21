@@ -37,13 +37,11 @@ body {
 /*Striber*/
 .stribenav img{
 	width: 90%;
-	height: auto;
 	margin: 2% 0 5% 0;
 }
 .stribe img{
 	width: 70%;
-	height: auto;
-	margin: 3% 0 5% 0;
+	margin: 3% 0 3% 0;
 }
 /*GIF*/
 .minGif img{
@@ -60,12 +58,37 @@ body {
 	line-height: 200%;
 }
 .nyeste h3{
-	background: #A4D8FF;
+	background: #b7d0ed;
 	width: 70%;
 	margin: auto;
-	padding: 3% 0 3% 0;
-	
+	padding: 3% 0 3% 0;	
 }
+
+/*Takeoff*/
+.lang{
+	magrin: auto;
+}
+.takeoff {
+	margin: 3% 0 0 0;
+	padding: 0 0 3% 0;
+}
+.takeoffimg img {
+	width: 70%;
+	margin: auto;
+}
+.line{
+	max-width: 70%;
+	margin: 0 0 0 15%;
+}
+.tekststribe {
+	width: 30%;
+	margin: 0 0 3% 0;
+}
+/*programmer*/
+.program{
+	width: 10%;
+}
+
 /*Tablet*/
 @media only screen and (max-width: 768px){
 	
