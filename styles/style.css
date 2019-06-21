@@ -13,7 +13,7 @@ body {
 
 /*Logo*/
 .logo img {
-	width: 10%;
+	width: 8%;
 	height: auto;
 	margin: 3% 0 3% 0;
 }
@@ -34,15 +34,13 @@ body {
 	font-size: 1.25rem;
 }
 
-/*Striber*/
-.stribenav img{
-	width: 90%;
-	margin: 2% 0 5% 0;
+/*striber*/
+hr.sort{
+  border-top: 6px dashed black;
+  border-bottom: 6px dashed black;
+  width: 70%;
 }
-.stribe img{
-	width: 70%;
-	margin: 3% 0 3% 0;
-}
+
 /*GIF*/
 .minGif img{
 	margin: 5% 0 5% 0;
@@ -51,43 +49,73 @@ body {
 }
 /*Tekst på forsiden*/
 .forsideTekst{
-	max-width: 50%;
+	max-width: 40%;
 	padding: 1% 0 0 0;
 	margin: auto;
 	/*text-align: left;*/
 	line-height: 200%;
 }
+/*Nyeste projekter*/
 .nyeste h3{
 	background: #b7d0ed;
 	width: 70%;
 	margin: auto;
 	padding: 3% 0 3% 0;	
+	letter-spacing: 3px;
 }
 
-/*Takeoff*/
-.lang{
-	magrin: auto;
+/*Generalt projekter*/
+h3 {
+	letter-spacing: 3px;
 }
-.takeoff {
+h5 {
+	letter-spacing: 3px;
+}
+p {
+	line-height: 200%;
+}
+.placering{
 	margin: 3% 0 0 0;
 	padding: 0 0 3% 0;
 }
-.takeoffimg img {
-	width: 70%;
-	margin: auto;
-}
-.line{
-	max-width: 70%;
-	margin: 0 0 0 15%;
-}
-.tekststribe {
-	width: 30%;
-	margin: 0 0 3% 0;
-}
-/*programmer*/
-.program{
+.program {
 	width: 10%;
+	margin: 0 0 0 1%;
 }
+/*Projekt til venstre*/
+.placeringV{
+	margin: 0 0 0 14.5%;
+}
+.placeringVimage img {
+	width: 115%;
+}
+
+/*Projekt til højre*/
+.placeringH{
+	margin: 0 14.5% 0;
+}
+.placeringHimage img {
+	width: 100%;
+	margin: 0 0 0 45%;
+}
+
+/*Stregerne*/
+.gul {
+  border: 3px solid #e19f29;
+  width: 40%;
+  margin: 0 60% 2% 0;
+}
+.blaa {
+  border: 3px solid #3576a3;
+  width: 40%;
+  margin: 0 60% 2% 0;
+}
+.pink {
+  border: 3px solid #e2b0d1;
+  width: 40%;
+  margin: 0 60% 2% 0;
+}
+
 
 /*Tablet*/
 @media only screen and (max-width: 768px){
