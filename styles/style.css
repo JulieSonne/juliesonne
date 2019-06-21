@@ -1,8 +1,47 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*Body*/
+body {
+	font-family: 'Poppins', sans-serif;
+}
+/*Container*/
+.container {
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 0 0 5px 0 rgba(105,105,105,0.20), 0 5px 5px 0 rgba(96,96,96,0.24);
+}
+
 /*Logo*/
 .logo img {
 	width: 10%;
 	height: auto;
+	margin: 3% 0 3% 0;
+}
+/*Navigation*/
+
+.navbar {
+	margin: auto;
+	max-width: 50%;
+}
+.navstyle a {
+	color: black;
+	letter-spacing: 3px;
+}
+.navspace {
+	margin: 0 5% 0 5%;
+}
+/*Tablet*/
+@media only screen and (max-width: 768px){
+	
+}
+/*Mobile*/
+@media only screen and (max-width: 375px){
+	/*Logo*/
+	.logo img {
+		width: 20%;
+		border: 1px solid red;
+	}
+	.shownav {
+		display: none;
+	}
 }
